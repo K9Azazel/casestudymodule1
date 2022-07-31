@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thời trang nam</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+  <div class="navbar">
+    <nav>
+      <ul id="MenuItems">
+        <li><a href="casestudy.html">Trang chủ</a></li>
+        <li><a href="product.html">Sản phẩm</a></li>
+        <li><a href="">Về chúng tôi</a></li>
+        <li><a href="">Liên hệ</a></li>
+        <li><a href="account.html">Tài khoản</a></li>
+      </ul>
+    </nav>
+    <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+    <img src="images/menu.png" class="menu-icon" onclick="carts.html">
+  </div>
+</div>
+<!-- ------------Account-page------------------- -->
+<div class="account-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <img src="images/image1.png" width="100%">
+      </div>
+
+      <div class="col-2">
+        <div class="form-container">
+          <div class="form-btn">
+            <span>Login</span>
+          </div>
+
+          <form id="RegForm">
+            <input type="text" placeholder="Username" id="user">
+            <input type="password" placeholder="Password" id="pass">
+            <button type="submit" class="btn" onclick="checkUser()">Submit</button>
+          </form>
+<script src="js/login.js"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
