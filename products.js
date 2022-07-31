@@ -33,3 +33,7 @@ class product {
         this.number = value;
     }
 }
+function sumProduct(price) {
+    sum += price
+    return sum
+}

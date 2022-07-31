@@ -1,121 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Sản phẩm</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Products - RedStore</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-<!--header-->
-<div class="header">
-  <div class="container">
-    <div class="navbar">
-      <div class="logo">
-        <a href="casestudy.html"></a>
+<div class="container">
+  <div class="navbar">
+    <nav>
+      <ul id="MenuItems">
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="products.html">Sản phẩm</a></li>
+        <li><a href="">Về chúng tôi</a></li>
+        <li><a href="">Liên hệ</a></li>
+        <li><a href="account.html">Tài khoản</a></li>
+      </ul>
+    </nav>
+    <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+  </div>
+</div>
+</div>
+
+
+
+<div class="small-container">
+
+  <div class="row row-2">
+    <h2>Tất cả sản phẩm</h2>
+<!--row 1-->
+  <div class="row">
+    <div class="col-4">
+      <a href="products_detal.html"><img src="images/product-1.jpg"></a>
+      <h4>Áo phông 1</h4>
+      <p>150.000</p>
+    </div>
+    <div class="col-4">
+      <img src="images/product-2.jpg">
+      <h4>Giày 1</h4>
+      <p>200.000 VND</p>
       </div>
-      <nav>
-        <ul id="MenuItems">
-          <li><a href="casestudy.html">Trang chủ</a></li>
-          <li><a href="">Sản phẩm</a></li>
-          <li><a href="">Về chúng tôi</a></li>
-          <li><a href="">Liên hệ</a></li>
-          <li><a href="">Đăng nhập</a></li>
-        </ul>
-      </nav>
-      <a href="product.html"></a>
+
+
+    <div class="col-4">
+      <img src="images/product-3.jpg">
+      <h4>Quần dài</h4>
+      <p>100.000 VND</p>
     </div>
-    <div class="row">
-      <div class="col-2">
-        <h1>Quần áo thời trang<br>US&UK</h1>
-      </div>
-      <div class="col-2">
-      </div>
+    <div class="col-4">
+      <img src="images/product-4.jpg">
+      <h4>Áo T-Shirt 2</h4>
+      <p>150.000 VND</p>
     </div>
   </div>
 </div>
-<!--body-->
-<div class="row"> <div class="categories">
-  <div class="small-container">
-    <div class="row">
-      <div class="col-3">
-    <a href=""><img src="images/product-1.jpg" width=10%></a>
-    <h4>Áo 1</h4>
+<!--    row 2-->
+  <div class="row">
+    <div class="col-4">
+      <img src="images/product-5.jpg">
+      <h4>Giày 2</h4>
+      <p>150.000 VND</p>
     </div>
-    <p>$50.00</p>
-  </div>
-  <div class="col-3">
-    <img src="images/product-2.jpg" width = 10%>
-    <h4>Giày 1</h4>
+    <div class="col-4">
+      <img src="images/product-6.jpg">
+      <h4>Áo T-Shirt 2</h4>
+      <p>150.000</p>
     </div>
-    <p>$50.00</p>
-  </div>
-  <div class="col-3">
-    <img src="images/product-3.jpg" width= 10%>
-    <h4>Áo T-shirts</h4>
+    <div class="col-4">
+      <img src="images/product-7.jpg">
+      <h4>tất 1</h4>
+      <p>150.000 VND</p>
     </div>
-    <p>$50.00</p>
-  </div>
-  <div class="col-3">
-    <img src="images/product-4.jpg" width = 10%>
-    <h4>Giày 2</h4>
+    <div class="col-4">
+      <img src="images/product-8.jpg">
+      <h4>Đồng hồ</h4>
+      <p>300.000 VND</p>
     </div>
-    <p>$50.00</p>
   </div>
-</div>
-<div class="row">
-  <div class="col-3">
-    <img src="images/product-5.jpg" width = 15%>
-    <h4>Quần</h4>
+<!--  row 3-->
+  <div class="row">
+    <div class="col-4">
+      <img src="images/product-9.jpg">
+      <h4>Đồng hồ 2</h4>
+      <p>200.000 VND</p>
     </div>
-    <p>$50.00</p>
-  </div>
-  <div class="col-3">
-    <img src="images/product-6.jpg" width = 15%>
-    <h4>Red Printed T-Shirt</h4>
+    <div class="col-4">
+      <img src="images/product-10.jpg">
+      <h4>Giày 3</h4>
+      <p>200.000 VND</p>
     </div>
-    <p>$50.00</p>
-  </div>
-  <div class="col-3">
-    <img src="images/product-7.jpg" width = 15%>
-    <h4>áo</h4>
-    <div class="rating">
+    <div class="col-4">
+      <img src="images/product-11.jpg">
+      <h4>Giày 4</h4>
+      <p>250.000 VND</p>
     </div>
-    <p>$50.00</p>
-  </div>
-  <div class="col-3">
-    <img src="images/product-8.jpg" width = 15%>
-    <h4>Red Printed T-Shirt</h4>
+    <div class="col-4">
+      <img src="images/product-12.jpg">
+      <h4>Quần 3</h4>
+      <p>150.000 VND</p>
     </div>
-    <p>$50.00</p>
   </div>
-</div>
-<div class="row">
-  <div class="col-3">
-    <img src="images/product-9.jpg" width = 15%>
-    <h4>Red Printed T-Shirt</h4>
-    </div>
-    <p>$50.00</p>
   </div>
-  <div class="col-3">
-    <img src="images/product-10.jpg" width = 15%>
-    <h4>Red Printed T-Shirt</h4>
-    </div>
-    <p>$50.00</p>
-  </div>
-  <div class="col-3">
-    <img src="images/product-11.jpg" width = 15%>
-    <h4>Red Printed T-Shirt</h4>
-    </div>
-    <p>$50.00</p>
-  </div>
-  <div class="col-3">
-    <img src="images/product-12.jpg" width = 15%>
-    <h4>Red Printed T-Shirt</h4>
-    </div>
-    <p>$50.00</p>
-  </div>
-</div>
-</div>
 </div>
 </body>
+
 </html>
