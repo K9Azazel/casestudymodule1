@@ -1,6 +1,6 @@
 class productManagement {
     constructor(array) {
-        this.perfume = array;
+        this.Product = array;
     }
     showList () {
         let sp = "";
